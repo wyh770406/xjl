@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= t :administration %></title>
+  <%= stylesheet_link_tag    "admin/application" %>
+  <%= javascript_include_tag "admin/application" %>
+  <%= csrf_meta_tags %>
+<script type="text/javascript">
+  function checkPhone(phone)
+  {
+  //验证电话号码手机号码，包含至今所有号段
+  var ab=/^(13[0-9]|15[0-9]|18[7|8|9])\d{8}$/;
+
+    if(ab.test(phone) == false)
+    {
+      alert("请正确填写手机号码!");
+      return false;
+    }
+   return true;
+  }
+</script>
+</head>
+<body>
+  <div id="wrapper">
+    <%= render '/admin/shared/topnav' %>
+
+    <div class="container">
+
+      <div class="content">
+
+
+        <% if content_for?(:title) || content_for?(:tabs) %>
+          <div class="page-header <%= content_for?(:tabs) ? 'with-tabs' : '' %>">
+            <div class="titlebar">
+              <%= yield :title %>
+            </div>
+            <%= yield :tabs %>
+          </div>
+        <% end %>
+
+        <% unless alert.blank? %>
+          <div class="alert alert-error fade in">
+            <a class="close" data-dismiss="alert">&times;</a>
+            <%= alert %>
+          </div>
+        <% end %>
+
+        <% unless notice.blank? %>
+          <div class="alert alert-success fade in">
+            <a class="close" data-dismiss="alert">&times;</a>
+            <%= notice %>
+          </div>
+        <% end %>
+
+        <div class="row">
+          <div class="span12">
+            <%= yield %>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>

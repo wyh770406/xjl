@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <% if content_for? :html_title %>
+    <title><%= yield :html_title %></title>
+  <% else %>
+    <title><%= t(:berlin) %></title>
+  <% end -%>
+  <%= stylesheet_link_tag    "application" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body id="devise">
+  <div class="container">
+    <div id="header">
+      <center><h3> <font color=black>现金流管理系统</font> </h3></center>
+    </div>
+
+    <div id="content">
+
+      <% unless alert.blank? %>
+        <div class="alert alert-error fade in">
+          <a class="close" data-dismiss="alert">&times;</a>
+          <%= alert %>
+        </div>
+      <% end %>
+
+      <% unless notice.blank? %>
+        <div class="alert alert-success fade in">
+          <a class="close" data-dismiss="alert">&times;</a>
+          <%= notice %>
+        </div>
+      <% end %>
+
+      <% if content_for? :banner %>
+        <div id="banner">
+          <%= yield :banner %>
+        </div>
+      <% end -%>
+
+      <div id="main">
+        <div id="login" class="center">
+
+          <% unless alert.blank? %>
+            <div class="alert alert-error fade in">
+              <a class="close" data-dismiss="alert">&times;</a>
+              <%= alert %>
+            </div>
+          <% end %>
+
+          <% unless notice.blank? %>
+            <div class="alert alert-success fade in">
+              <a class="close" data-dismiss="alert">&times;</a>
+              <%= notice %>
+            </div>
+          <% end %>
+
+          <div class="center login">
+            <%= yield %>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>

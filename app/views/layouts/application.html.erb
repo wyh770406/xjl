@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= t("berlin") %></title>
+  <%= stylesheet_link_tag    "application" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <div class="container">
+    <div id="header">
+
+
+    </div>
+
+    <div id="content">
+
+      <% unless alert.blank? %>
+        <div class="alert alert-error fade in">
+          <a class="close" data-dismiss="alert">&times;</a>
+          <%= alert %>
+        </div>
+      <% end %>
+
+      <% unless notice.blank? %>
+        <div class="alert alert-success fade in">
+          <a class="close" data-dismiss="alert">&times;</a>
+          <%= notice %>
+        </div>
+      <% end %>
+
+      <% if content_for? :banner %>
+        <div id="banner">
+          <%= yield :banner %>
+        </div>
+      <% end -%>
+
+      <div id="main">
+        <% if content_for? :sidebar %>
+          <div class="row-fluid">
+            <div class="span3">
+              <div id="sidebar">
+                <%= yield :sidebar %>
+              </div>
+            </div>
+            <div class="span9">
+              <%= yield %>
+            </div>
+          </div>
+        <% else %>
+          <%= yield %>
+        <% end -%>
+      </div>
+    </div>
+
+
+  </div>
+  <%= yield :scripts %>
+</body>
+</html>

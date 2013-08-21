@@ -1,0 +1,33 @@
+<% content_for :title do %>
+<h1><%= t 'crud.listing', model: CashflowSubject.model_name.human %></h1>
+<div class="toolbar">
+  <%= link_to t('crud.new'), new_admin_cashflow_subject_path, class: 'btn btn-primary' %>
+</div>
+<% end %>
+
+<table class="table table-bordered table-striped">
+  <thead>
+    <tr>
+        <th><%= CashflowSubject.human_attribute_name(:name) %></th>
+        <th><%= CashflowSubject.human_attribute_name(:code) %></th>
+        <th><%= CashflowSubject.human_attribute_name(:company) %></th>
+        <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<% @cashflow_subjects.each do |cashflow_subject| %>
+    <tr>
+      <td><%= cashflow_subject.name %></td>
+      <td><%= cashflow_subject.code %></td>
+      <td><%= cashflow_subject.company.name if cashflow_subject.company %></td>
+      <td class="control span4">
+        <%= link_to t('crud.show'), admin_cashflow_subject_path(cashflow_subject) %>
+        <%= link_to t('crud.edit'), edit_admin_cashflow_subject_path(cashflow_subject) %>
+        <%= link_to t('crud.destroy'), admin_cashflow_subject_path(cashflow_subject), confirm: t('crud.destroy_confirmation'), method: :delete %>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<%= paginate @cashflow_subjects %>

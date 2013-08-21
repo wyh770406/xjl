@@ -1,0 +1,20 @@
+<% content_for :title do %>
+<h1><%= @cashflow_subject.name %></h1>
+<div class="toolbar">
+  <%= link_to t('crud.edit'), edit_admin_cashflow_subject_path(@cashflow_subject), class: 'btn btn-primary' %>
+</div>
+<% end %>
+
+<table class="table table-nobordered">
+  <tbody>
+    <tr>
+      <th><%= CashflowSubject.human_attribute_name(:name) %></th>
+      <td><%= @cashflow_subject.name %></td>
+    </tr>
+    <tr>
+      <th><%= CashflowSubject.human_attribute_name(:code) %></th>
+      <td><%= @cashflow_subject.code %></td>
+    </tr>
+  </tbody>
+</table>
+
