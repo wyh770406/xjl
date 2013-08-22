@@ -1,0 +1,29 @@
+
+<%= form_tag("/admin/cashflow_reports", method: "get", class: "well form-inline form-horizontal") do%>
+  <div class="control-line">
+    <div class="control-group-inline">
+      <%= "现金流日期" %>
+      <%= text_field_tag 'begin_date', params[:begin_date], class: "date-input" , style: "width:120px" %> - <%= text_field_tag 'end_date', params[:end_date], class: "date-input", style: "width:120px" %>
+    </div>
+
+  </div>
+  <hr/>
+  <div class="control-line">
+    <div class="control-group-inline">
+      <%= "公司" %>
+      <%= select_tag 'company_id', options_for_select(([[t('all'), '']] + Company.all.map { |c| [c.name, c.id] }), params[:company_id]), style: "width:160px" %>
+    </div>
+    <div class="control-group-inline">
+      <%= "现金流科目" %>
+      <%= select_tag 'cashflow_subject_id', options_for_select(([[t('all'), '']] + CashflowSubject.all.map { |s| [s.name, s.id] }), params[:cashflow_subject_id]), style: "width:160px" %>
+    </div>
+    <div class="control-group-inline">
+      <%= "对应科目" %>
+      <%= select_tag 'corresponding_subject_id', options_for_select(([[t('all'), '']] + CorrespondingSubject.all.map { |s| [s.name, s.id] }), params[:corresponding_subject_id]), style: "width:160px" %>
+    </div>
+    <%= submit_tag t('helpers.submit.search'), class: 'btn btn-primary pull-right' %>
+  </div>
+<% end %>
+
+
+

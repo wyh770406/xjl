@@ -20,6 +20,10 @@ Berlin::Application.routes.draw do
 
     resources :corresponding_subjects
 
+    resources :cash_flows
+
+    resources :cashflow_reports, only: [:index]
+
   end
 
   match '/admin', to: 'admin/dashboard#index', as: :admin

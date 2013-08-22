@@ -51,8 +51,9 @@ SimpleNavigation::Configuration.run do |navigation|
     #
 
     primary.item :users, t('nav.users'), admin_users_url if can? :manage, User
+    primary.item :cash_flows, t('nav.cash_flows'), admin_cash_flows_url if can? :manage, CashFlow
 
-    if can?(:manage, Company) || can?(:manage, City) || can?(:manage, Area)
+    if can?(:manage, Company) || can?(:manage, CorrespondingSubject) || can?(:manage, CashflowSubject)
       primary.item :settings, t('nav.settings'), '#' do |sub_nav|
         sub_nav.item :companies, t('nav.companies'), admin_companies_url if can?(:manage, Company)
 
@@ -61,6 +62,16 @@ SimpleNavigation::Configuration.run do |navigation|
         end
         if can?(:manage, CashflowSubject)
           sub_nav.item :cashflow_subjects, t('nav.settings_nav.cashflow_subjects'), admin_cashflow_subjects_url
+        end
+
+      end
+    end
+
+    if can?(:manage, CashflowReport)
+      primary.item :reports, t('nav.reports'), '#' do |sub_nav|
+
+        if can?(:manage, CashflowReport)
+          sub_nav.item :total_reports, t('nav.settings_nav.total_reports'), admin_cashflow_reports_url
         end
 
       end

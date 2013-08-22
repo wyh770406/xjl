@@ -6,13 +6,15 @@ class Ability
     if user.is? :admin
       can :manage, :all
       cannot :manage, CashflowSubject
+      cannot :manage, CashFlow
+      cannot :manage, CashflowReport
     elsif user.is? :accountant
       can :manage, :all
 
       cannot :manage, Company
       cannot :manage, User
       cannot :manage, CorrespondingSubject
-
+      cannot :manage, CashflowReport
     elsif user.is? :manager
       can :manage, :all
 
@@ -20,6 +22,8 @@ class Ability
       cannot :manage, User
       cannot :manage, CorrespondingSubject
       cannot :manage, CashflowSubject
+      cannot :manage, CashFlow
+      can :read, CashFlow
     else
 
     end

@@ -16,6 +16,7 @@ zh-CN:
       company: '公司'
       corresponding_subject: '对应科目'
       cashflow_subject: '现金流科目'
+      cash_flow: '现金流'
       city: '城市'
       area: '区县'
       location: '地理位置'
@@ -47,6 +48,14 @@ zh-CN:
       corresponding_subject:
         name: 名称
         code: 编码
+      cash_flow:
+        cashflow_subject_id: 现金流科目
+        corresponding_subject_id: 对应科目
+        company: 公司
+        company_id: 公司
+        cashflow_date: 现金流日期
+        cashflow_amount: 金额
+        description: 备注说明
       city:
         name: '城市名'
       area:
@@ -127,11 +136,17 @@ zh-CN:
     account: '帐号'
     dashboard: '控制台'
     users: '用户'
+    cash_flows: '现金流'
     companies: '公司'
     settings: '系统设置'
+    reports: '报表'
     settings_nav:
       cashflow_subjects: '现金流科目'
       corresponding_subjects: '对应科目'
+      total_reports: '不汇总报表'
+      cashsummarized_reports: '现金流汇总报表'
+      correspondingsummarized_reports: '项目汇总报表'
+      daysummarized_reports: '每日汇总报表'
 
   flash:
     base:

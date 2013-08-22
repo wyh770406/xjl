@@ -2,6 +2,7 @@
 <h1><%= @company.name %></h1>
 <div class="toolbar">
   <%= link_to t('crud.edit'), edit_admin_company_path(@company), class: 'btn btn-primary' %>
+  <%= link_to t('crud.back'), admin_companies_path, class: 'btn' %>
 </div>
 <% end %>
 

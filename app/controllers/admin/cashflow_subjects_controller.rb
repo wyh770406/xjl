@@ -2,7 +2,7 @@ module Admin
   class CashflowSubjectsController < Admin::BaseController
 
     def index
-      @cashflow_subjects = CashflowSubject.page(params[:page]).per(15)
+      @cashflow_subjects = current_user.company.cashflow_subjects.page(params[:page]).per(15)
     end
 
     def show

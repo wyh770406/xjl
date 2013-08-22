@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130821120459) do
+ActiveRecord::Schema.define(:version => 20130822003601) do
 
   create_table "areas", :force => true do |t|
     t.string   "name"
@@ -21,6 +21,20 @@ ActiveRecord::Schema.define(:version => 20130821120459) do
   end
 
   add_index "areas", ["city_id"], :name => "index_areas_on_city_id"
+
+  create_table "cash_flows", :force => true do |t|
+    t.integer  "company_id"
+    t.integer  "cashflow_subject_id"
+    t.integer  "corresponding_subject_id"
+    t.date     "cashflow_date"
+    t.decimal  "cashflow_amount",          :precision => 8, :scale => 2
+    t.text     "description"
+    t.datetime "created_at",                                             :null => false
+    t.datetime "updated_at",                                             :null => false
+  end
+
+  add_index "cash_flows", ["cashflow_date"], :name => "index_cash_flows_on_cashflow_date"
+  add_index "cash_flows", ["company_id"], :name => "index_cash_flows_on_company_id"
 
   create_table "cashflow_subjects", :force => true do |t|
     t.integer  "company_id"

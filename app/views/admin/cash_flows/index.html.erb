@@ -1,0 +1,39 @@
+<% content_for :title do %>
+<h1><%= t 'crud.listing', model: CashFlow.model_name.human %></h1>
+<div class="toolbar">
+  <%= link_to t('crud.new'), new_admin_cash_flow_path, class: 'btn btn-primary' %>
+</div>
+<% end %>
+
+<table class="table table-bordered table-striped">
+  <thead>
+    <tr>
+        <th><%= CashFlow.human_attribute_name(:cashflow_date) %></th>
+        <th><%= CashFlow.human_attribute_name(:company) %></th>
+        <th><%= CashFlow.human_attribute_name(:cashflow_subject_id) %></th>
+        <th><%= CashFlow.human_attribute_name(:corresponding_subject_id) %></th>
+        <th><%= CashFlow.human_attribute_name(:cashflow_amount) %></th>
+        <th><%= CashFlow.human_attribute_name(:description) %></th>
+        <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<% @cash_flows.each do |cash_flow| %>
+    <tr>
+      <td><%= cash_flow.cashflow_date.strftime("%Y-%m-%d")%></td>
+      <td><%= cash_flow.company.name if cash_flow.company %></td>
+      <td><%= cash_flow.cashflow_subject.name if cash_flow.cashflow_subject%></td>
+      <td><%= cash_flow.corresponding_subject.name if cash_flow.corresponding_subject %></td>
+      <td><%= number_to_currency cash_flow.cashflow_amount%></td>
+      <td><%= cash_flow.description %></td>
+      <td class="control span4">
+        <%= link_to t('crud.show'), admin_cash_flow_path(cash_flow) %>
+        <%= link_to t('crud.edit'), edit_admin_cash_flow_path(cash_flow) %>
+        <%= link_to t('crud.destroy'), admin_cash_flow_path(cash_flow), confirm: t('crud.destroy_confirmation'), method: :delete %>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<%= paginate @cash_flows %>

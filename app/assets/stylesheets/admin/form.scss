@@ -37,23 +37,16 @@ form.form-embeded {
   }
 }
 
-form#order_search {
-  #q_number_cont {
-    width: 120px;
-  }
+form#cash_flow_search {
 
-  #q_mobile_cont {
-    width: 120px;
-  }
-
-  #q_state_eq, #q_payment_state_eq {
-    width: 120px;
-  }
-
-  #q_payment_method_id_eq {
+  #q_company_id_eq, #q_cashflow_subject_id_eq {
     width: 160px;
   }
-  
+
+  #q_corresponding_subject_id_eq {
+    width: 160px;
+  }
+
   .date-input {
     width: 120px;
   }

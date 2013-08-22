@@ -7308,3 +7308,421 @@ DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Pleas
 DEPRECATION WARNING: Passing a block to use is deprecated. Please use wrapper instead of use. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:74)
 DEPRECATION WARNING: Passing a block to use is deprecated. Please use wrapper instead of use. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:75)
 DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :error, :wrap_with => {:tag=>"span", :class=>"help-inline"} instead. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:78)
+Connecting to database specified by database.yml
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :hint, :wrap_with => {:tag=>:span, :class=>:hint} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:44)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :error, :wrap_with => {:tag=>:span, :class=>:error} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:45)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :label, :wrap_with => {:class=>"control-label"} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:50)
+DEPRECATION WARNING: Passing a block to use is deprecated. Please use wrapper instead of use. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:51)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :error, :wrap_with => {:tag=>"span", :class=>"help-inline"} instead. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:53)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :hint, :wrap_with => {:tag=>"p", :class=>"help-block"} instead. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:54)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :label, :wrap_with => {:class=>"control-label"} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:60)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :hint, :wrap_with => {:tag=>"span", :class=>"help-block"} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:61)
+DEPRECATION WARNING: Passing a block to use is deprecated. Please use wrapper instead of use. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:62)
+DEPRECATION WARNING: Passing a block to use is deprecated. Please use wrapper instead of use. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:63)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :error, :wrap_with => {:tag=>"span", :class=>"help-inline"} instead. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:66)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :label, :wrap_with => {:class=>"control-label"} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:72)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :hint, :wrap_with => {:tag=>"span", :class=>"help-block"} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:73)
+DEPRECATION WARNING: Passing a block to use is deprecated. Please use wrapper instead of use. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:74)
+DEPRECATION WARNING: Passing a block to use is deprecated. Please use wrapper instead of use. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:75)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :error, :wrap_with => {:tag=>"span", :class=>"help-inline"} instead. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:78)
+Connecting to database specified by database.yml
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :hint, :wrap_with => {:tag=>:span, :class=>:hint} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:44)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :error, :wrap_with => {:tag=>:span, :class=>:error} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:45)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :label, :wrap_with => {:class=>"control-label"} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:50)
+DEPRECATION WARNING: Passing a block to use is deprecated. Please use wrapper instead of use. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:51)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :error, :wrap_with => {:tag=>"span", :class=>"help-inline"} instead. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:53)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :hint, :wrap_with => {:tag=>"p", :class=>"help-block"} instead. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:54)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :label, :wrap_with => {:class=>"control-label"} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:60)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :hint, :wrap_with => {:tag=>"span", :class=>"help-block"} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:61)
+DEPRECATION WARNING: Passing a block to use is deprecated. Please use wrapper instead of use. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:62)
+DEPRECATION WARNING: Passing a block to use is deprecated. Please use wrapper instead of use. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:63)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :error, :wrap_with => {:tag=>"span", :class=>"help-inline"} instead. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:66)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :label, :wrap_with => {:class=>"control-label"} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:72)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :hint, :wrap_with => {:tag=>"span", :class=>"help-block"} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:73)
+DEPRECATION WARNING: Passing a block to use is deprecated. Please use wrapper instead of use. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:74)
+DEPRECATION WARNING: Passing a block to use is deprecated. Please use wrapper instead of use. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:75)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :error, :wrap_with => {:tag=>"span", :class=>"help-inline"} instead. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:78)
+Connecting to database specified by database.yml
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :hint, :wrap_with => {:tag=>:span, :class=>:hint} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:44)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :error, :wrap_with => {:tag=>:span, :class=>:error} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:45)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :label, :wrap_with => {:class=>"control-label"} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:50)
+DEPRECATION WARNING: Passing a block to use is deprecated. Please use wrapper instead of use. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:51)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :error, :wrap_with => {:tag=>"span", :class=>"help-inline"} instead. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:53)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :hint, :wrap_with => {:tag=>"p", :class=>"help-block"} instead. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:54)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :label, :wrap_with => {:class=>"control-label"} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:60)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :hint, :wrap_with => {:tag=>"span", :class=>"help-block"} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:61)
+DEPRECATION WARNING: Passing a block to use is deprecated. Please use wrapper instead of use. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:62)
+DEPRECATION WARNING: Passing a block to use is deprecated. Please use wrapper instead of use. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:63)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :error, :wrap_with => {:tag=>"span", :class=>"help-inline"} instead. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:66)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :label, :wrap_with => {:class=>"control-label"} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:72)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :hint, :wrap_with => {:tag=>"span", :class=>"help-block"} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:73)
+DEPRECATION WARNING: Passing a block to use is deprecated. Please use wrapper instead of use. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:74)
+DEPRECATION WARNING: Passing a block to use is deprecated. Please use wrapper instead of use. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:75)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :error, :wrap_with => {:tag=>"span", :class=>"help-inline"} instead. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:78)
+Mysql2::Error: Table 'berlin_development.schema_migrations' doesn't exist: SHOW FULL FIELDS FROM `schema_migrations`
+Connecting to database specified by database.yml
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :hint, :wrap_with => {:tag=>:span, :class=>:hint} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:44)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :error, :wrap_with => {:tag=>:span, :class=>:error} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:45)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :label, :wrap_with => {:class=>"control-label"} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:50)
+DEPRECATION WARNING: Passing a block to use is deprecated. Please use wrapper instead of use. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:51)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :error, :wrap_with => {:tag=>"span", :class=>"help-inline"} instead. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:53)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :hint, :wrap_with => {:tag=>"p", :class=>"help-block"} instead. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:54)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :label, :wrap_with => {:class=>"control-label"} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:60)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :hint, :wrap_with => {:tag=>"span", :class=>"help-block"} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:61)
+DEPRECATION WARNING: Passing a block to use is deprecated. Please use wrapper instead of use. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:62)
+DEPRECATION WARNING: Passing a block to use is deprecated. Please use wrapper instead of use. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:63)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :error, :wrap_with => {:tag=>"span", :class=>"help-inline"} instead. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:66)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :label, :wrap_with => {:class=>"control-label"} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:72)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :hint, :wrap_with => {:tag=>"span", :class=>"help-block"} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:73)
+DEPRECATION WARNING: Passing a block to use is deprecated. Please use wrapper instead of use. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:74)
+DEPRECATION WARNING: Passing a block to use is deprecated. Please use wrapper instead of use. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:75)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :error, :wrap_with => {:tag=>"span", :class=>"help-inline"} instead. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:78)
+Connecting to database specified by database.yml
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :hint, :wrap_with => {:tag=>:span, :class=>:hint} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:44)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :error, :wrap_with => {:tag=>:span, :class=>:error} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:45)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :label, :wrap_with => {:class=>"control-label"} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:50)
+DEPRECATION WARNING: Passing a block to use is deprecated. Please use wrapper instead of use. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:51)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :error, :wrap_with => {:tag=>"span", :class=>"help-inline"} instead. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:53)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :hint, :wrap_with => {:tag=>"p", :class=>"help-block"} instead. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:54)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :label, :wrap_with => {:class=>"control-label"} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:60)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :hint, :wrap_with => {:tag=>"span", :class=>"help-block"} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:61)
+DEPRECATION WARNING: Passing a block to use is deprecated. Please use wrapper instead of use. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:62)
+DEPRECATION WARNING: Passing a block to use is deprecated. Please use wrapper instead of use. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:63)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :error, :wrap_with => {:tag=>"span", :class=>"help-inline"} instead. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:66)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :label, :wrap_with => {:class=>"control-label"} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:72)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :hint, :wrap_with => {:tag=>"span", :class=>"help-block"} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:73)
+DEPRECATION WARNING: Passing a block to use is deprecated. Please use wrapper instead of use. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:74)
+DEPRECATION WARNING: Passing a block to use is deprecated. Please use wrapper instead of use. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:75)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :error, :wrap_with => {:tag=>"span", :class=>"help-inline"} instead. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:78)
+
+
+Started GET "/admin/cash_flows" for 127.0.0.1 at 2013-08-22 10:56:21 +0800
+Processing by Admin::CashFlowsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 44 LIMIT 1[0m
+  [1m[35mCompany Load (0.1ms)[0m  SELECT `companies`.* FROM `companies` WHERE `companies`.`id` = 4 LIMIT 1
+  [1m[36mCashFlow Load (0.1ms)[0m  [1mSELECT `cash_flows`.* FROM `cash_flows` WHERE `cash_flows`.`company_id` = 4 LIMIT 15 OFFSET 0[0m
+ERROR: compiling _app_views_admin_cash_flows_index_html_erb__3555454773224370629_35593880 RAISED /home/wyh77/xjl/app/views/admin/cash_flows/index.html.erb:23: syntax error, unexpected tLABEL, expecting '='
+...ash_flow.cashflow_date, format: :short);@output_buffer.safe_...
+...                               ^
+Function body:           def _app_views_admin_cash_flows_index_html_erb__3555454773224370629_35593880(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "admin/cash_flows/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new; content_for :title do 
+@output_buffer.safe_concat('<h1>');@output_buffer.append= ( t 'crud.listing', model: CashFlow.model_name.human );@output_buffer.safe_concat('</h1>
+<div class="toolbar">
+  ');@output_buffer.append= ( link_to t('crud.new'), new_admin_cash_flow_path, class: 'btn btn-primary' );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('</div>
+'); end 
+@output_buffer.safe_concat('
+<table class="table table-bordered table-striped">
+  <thead>
+    <tr>
+        <th>');@output_buffer.append= ( CashFlow.human_attribute_name(:cashflow_date) );@output_buffer.safe_concat('</th>
+        <th>');@output_buffer.append= ( CashFlow.human_attribute_name(:company) );@output_buffer.safe_concat('</th>
+        <th>');@output_buffer.append= ( CashFlow.human_attribute_name(:cashflow_subject_id) );@output_buffer.safe_concat('</th>
+        <th>');@output_buffer.append= ( CashFlow.human_attribute_name(:corresponding_subject_id) );@output_buffer.safe_concat('</th>
+        <th>');@output_buffer.append= ( CashFlow.human_attribute_name(:cashflow_amount) );@output_buffer.safe_concat('</th>
+        <th>');@output_buffer.append= ( CashFlow.human_attribute_name(:description) );@output_buffer.safe_concat('</th>
+        <th></th>
+    </tr>
+  </thead>
+  <tbody>
+'); @cash_flows.each do |cash_flow| 
+@output_buffer.safe_concat('    <tr>
+      <td>');@output_buffer.append= ( cash_flow.cashflow_date, format: :short);@output_buffer.safe_concat('</td>
+      <td>');@output_buffer.append= ( cash_flow.company.name if cash_flow.company );@output_buffer.safe_concat('</td>
+      <td>');@output_buffer.append= ( cash_flow.cashflow_subject.name if cash_flow.cashflow_subject);@output_buffer.safe_concat('</td>
+      <td>');@output_buffer.append= ( cash_flow.corresponding_subject.name if cash_flow.corresponding_subject );@output_buffer.safe_concat('</td>
+      <td>');@output_buffer.append= ( number_to_currency cash_flow.cashflow_amount);@output_buffer.safe_concat('</td>
+      <td>');@output_buffer.append= ( cash_flow.description );@output_buffer.safe_concat('</td>
+      <td class="control span4">
+        ');@output_buffer.append= ( link_to t('crud.show'), admin_cash_flow_path(cash_flow) );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('        ');@output_buffer.append= ( link_to t('crud.edit'), edit_admin_cash_flow_path(cash_flow) );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('        ');@output_buffer.append= ( link_to t('crud.destroy'), admin_cash_flow_path(cash_flow), confirm: t('crud.destroy_confirmation'), method: :delete );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('      </td>
+    </tr>
+'); end 
+@output_buffer.safe_concat('  </tbody>
+</table>
+
+');@output_buffer.append= ( paginate @cash_flows );@output_buffer.safe_concat('
+');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_view/template.rb:297:in `module_eval'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_view/template.rb:297:in `compile'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_view/template.rb:244:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_view/template.rb:232:in `compile!'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_view/template.rb:144:in `block in render'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.11/lib/active_support/notifications.rb:125:in `instrument'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_view/template.rb:143:in `render'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.11/lib/active_support/notifications.rb:123:in `block in instrument'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.11/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.11/lib/active_support/notifications.rb:123:in `instrument'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_view/renderer/renderer.rb:17:in `render'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/abstract_controller/rendering.rb:88:in `render'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_controller/metal/rendering.rb:16:in `render'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.11/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.11/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.11/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/wicked_pdf-0.9.6/lib/pdf_helper.rb:23:in `render_with_wicked_pdf'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/abstract_controller/base.rb:167:in `process_action'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:458:in `_run__3942858182535952194__process_action__683348043812306920__callbacks'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:405:in `__run_callback'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.11/lib/active_support/notifications.rb:123:in `block in instrument'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.11/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.11/lib/active_support/notifications.rb:123:in `instrument'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.11/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/abstract_controller/base.rb:121:in `process'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/abstract_controller/rendering.rb:45:in `process'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_controller/metal.rb:203:in `dispatch'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_controller/metal.rb:246:in `block in action'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_dispatch/routing/route_set.rb:601:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/warden-1.1.1/lib/warden/manager.rb:35:in `block in call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/warden-1.1.1/lib/warden/manager.rb:34:in `catch'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/warden-1.1.1/lib/warden/manager.rb:34:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rack-1.4.5/lib/rack/etag.rb:23:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rack-1.4.5/lib/rack/conditionalget.rb:25:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_dispatch/middleware/head.rb:14:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:210:in `context'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:205:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.11/lib/active_record/query_cache.rb:64:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:405:in `_run__1283848563315115638__call__1738903297337744881__callbacks'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:405:in `__run_callback'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/railties-3.2.11/lib/rails/rack/logger.rb:32:in `call_app'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/railties-3.2.11/lib/rails/rack/logger.rb:16:in `block in call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.11/lib/active_support/tagged_logging.rb:22:in `tagged'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/railties-3.2.11/lib/rails/rack/logger.rb:16:in `call'
+/home/wyh77/xjl/config/initializers/quiet_assets.rb:8:in `call_with_quiet_assets'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.11/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rack-1.4.5/lib/rack/lock.rb:15:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_dispatch/middleware/static.rb:62:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/railties-3.2.11/lib/rails/engine.rb:479:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/railties-3.2.11/lib/rails/application.rb:223:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/railties-3.2.11/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rack-1.4.5/lib/rack/handler/webrick.rb:59:in `service'
+/usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+  Rendered admin/cash_flows/index.html.erb within layouts/admin (29.2ms)
+Completed 500 Internal Server Error in 243ms
+
+ActionView::Template::Error (/home/wyh77/xjl/app/views/admin/cash_flows/index.html.erb:23: syntax error, unexpected tLABEL, expecting '='
+...ash_flow.cashflow_date, format: :short);@output_buffer.safe_...
+...                               ^):
+    20:   <tbody>
+    21: <% @cash_flows.each do |cash_flow| %>
+    22:     <tr>
+    23:       <td><%= cash_flow.cashflow_date, format: :short%></td>
+    24:       <td><%= cash_flow.company.name if cash_flow.company %></td>
+    25:       <td><%= cash_flow.cashflow_subject.name if cash_flow.cashflow_subject%></td>
+    26:       <td><%= cash_flow.corresponding_subject.name if cash_flow.corresponding_subject %></td>
+  config/initializers/quiet_assets.rb:8:in `call_with_quiet_assets'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.2ms)
+Connecting to database specified by database.yml
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :hint, :wrap_with => {:tag=>:span, :class=>:hint} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:44)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :error, :wrap_with => {:tag=>:span, :class=>:error} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:45)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :label, :wrap_with => {:class=>"control-label"} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:50)
+DEPRECATION WARNING: Passing a block to use is deprecated. Please use wrapper instead of use. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:51)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :error, :wrap_with => {:tag=>"span", :class=>"help-inline"} instead. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:53)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :hint, :wrap_with => {:tag=>"p", :class=>"help-block"} instead. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:54)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :label, :wrap_with => {:class=>"control-label"} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:60)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :hint, :wrap_with => {:tag=>"span", :class=>"help-block"} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:61)
+DEPRECATION WARNING: Passing a block to use is deprecated. Please use wrapper instead of use. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:62)
+DEPRECATION WARNING: Passing a block to use is deprecated. Please use wrapper instead of use. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:63)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :error, :wrap_with => {:tag=>"span", :class=>"help-inline"} instead. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:66)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :label, :wrap_with => {:class=>"control-label"} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:72)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :hint, :wrap_with => {:tag=>"span", :class=>"help-block"} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:73)
+DEPRECATION WARNING: Passing a block to use is deprecated. Please use wrapper instead of use. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:74)
+DEPRECATION WARNING: Passing a block to use is deprecated. Please use wrapper instead of use. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:75)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :error, :wrap_with => {:tag=>"span", :class=>"help-inline"} instead. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:78)
+
+
+Started GET "/admin/cashflow_reports" for 127.0.0.1 at 2013-08-22 12:14:53 +0800
+Processing by Admin::CashflowReportsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 45 LIMIT 1[0m
+Completed 500 Internal Server Error in 161ms
+
+ActionView::MissingTemplate (Missing template admin/cashflow_reports/index, admin/base/index, application/index with {:locale=>[:"zh-CN"], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "/home/wyh77/xjl/app/views"
+  * "/usr/local/rvm/gems/ruby-1.9.3-p392/gems/ckeditor-4.0.4/app/views"
+  * "/usr/local/rvm/gems/ruby-1.9.3-p392/gems/gmaps4rails-1.5.6/app/views"
+  * "/usr/local/rvm/gems/ruby-1.9.3-p392/gems/kaminari-0.13.0/app/views"
+  * "/usr/local/rvm/gems/ruby-1.9.3-p392/gems/devise-2.0.5/app/views"
+):
+  config/initializers/quiet_assets.rb:8:in `call_with_quiet_assets'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (2.8ms)
+Connecting to database specified by database.yml
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :hint, :wrap_with => {:tag=>:span, :class=>:hint} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:44)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :error, :wrap_with => {:tag=>:span, :class=>:error} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:45)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :label, :wrap_with => {:class=>"control-label"} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:50)
+DEPRECATION WARNING: Passing a block to use is deprecated. Please use wrapper instead of use. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:51)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :error, :wrap_with => {:tag=>"span", :class=>"help-inline"} instead. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:53)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :hint, :wrap_with => {:tag=>"p", :class=>"help-block"} instead. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:54)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :label, :wrap_with => {:class=>"control-label"} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:60)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :hint, :wrap_with => {:tag=>"span", :class=>"help-block"} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:61)
+DEPRECATION WARNING: Passing a block to use is deprecated. Please use wrapper instead of use. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:62)
+DEPRECATION WARNING: Passing a block to use is deprecated. Please use wrapper instead of use. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:63)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :error, :wrap_with => {:tag=>"span", :class=>"help-inline"} instead. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:66)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :label, :wrap_with => {:class=>"control-label"} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:72)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :hint, :wrap_with => {:tag=>"span", :class=>"help-block"} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:73)
+DEPRECATION WARNING: Passing a block to use is deprecated. Please use wrapper instead of use. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:74)
+DEPRECATION WARNING: Passing a block to use is deprecated. Please use wrapper instead of use. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:75)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :error, :wrap_with => {:tag=>"span", :class=>"help-inline"} instead. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:78)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-22 14:25:10 +0800
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 45 LIMIT 1[0m
+Redirected to http://127.0.0.1:3000/admin/cashflow_reports
+Completed 302 Found in 78ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/admin/cashflow_reports" for 127.0.0.1 at 2013-08-22 14:25:10 +0800
+Processing by Admin::CashflowReportsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 45 LIMIT 1
+  [1m[36mCompany Load (0.0ms)[0m  [1mSELECT `companies`.* FROM `companies` [0m
+  [1m[35mCashflowSubject Load (0.1ms)[0m  SELECT `cashflow_subjects`.* FROM `cashflow_subjects` 
+  [1m[36mCorrespondingSubject Load (0.2ms)[0m  [1mSELECT `corresponding_subjects`.* FROM `corresponding_subjects` [0m
+  Rendered admin/cashflow_reports/_search.html.erb (56.5ms)
+  [1m[35mCashFlow Load (0.3ms)[0m  SELECT `cash_flows`.* FROM `cash_flows` LIMIT 15 OFFSET 0
+  [1m[36mCompany Load (0.3ms)[0m  [1mSELECT `companies`.* FROM `companies` WHERE `companies`.`id` = 4 LIMIT 1[0m
+  [1m[35mCashflowSubject Load (0.2ms)[0m  SELECT `cashflow_subjects`.* FROM `cashflow_subjects` WHERE `cashflow_subjects`.`id` = 1 LIMIT 1
+  [1m[36mCorrespondingSubject Load (0.2ms)[0m  [1mSELECT `corresponding_subjects`.* FROM `corresponding_subjects` WHERE `corresponding_subjects`.`id` = 1 LIMIT 1[0m
+  [1m[35mCompany Load (0.2ms)[0m  SELECT `companies`.* FROM `companies` WHERE `companies`.`id` = 1 LIMIT 1
+  [1m[36mCashflowSubject Load (0.2ms)[0m  [1mSELECT `cashflow_subjects`.* FROM `cashflow_subjects` WHERE `cashflow_subjects`.`id` = 4 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `corresponding_subjects`.* FROM `corresponding_subjects` WHERE `corresponding_subjects`.`id` = 1 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `cash_flows` [0m
+  Rendered admin/cashflow_reports/index.html.erb within layouts/admin (144.7ms)
+  Rendered admin/shared/_topnav.html.erb (39.3ms)
+Completed 200 OK in 2201ms (Views: 2158.9ms | ActiveRecord: 8.1ms)
+
+
+Started GET "/admin/cash_flows?utf8=%E2%9C%93&q%5Bcashflow_date_gteq%5D=&q%5Bcashflow_date_lteq%5D=&q%5Bcompany_id_eq%5D=1&q%5Bcashflow_subject_id_eq%5D=&q%5Bcorresponding_subject_id_eq%5D=&commit=%E6%90%9C%E7%B4%A2" for 127.0.0.1 at 2013-08-22 14:25:17 +0800
+Processing by Admin::CashFlowsController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>{"cashflow_date_gteq"=>"", "cashflow_date_lteq"=>"", "company_id_eq"=>"1", "cashflow_subject_id_eq"=>"", "corresponding_subject_id_eq"=>""}, "commit"=>"搜索"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 45 LIMIT 1
+Completed 500 Internal Server Error in 7ms
+
+NoMethodError (undefined method `cash_flows' for nil:NilClass):
+  app/controllers/admin/cash_flows_controller.rb:5:in `index'
+  config/initializers/quiet_assets.rb:8:in `call_with_quiet_assets'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.6ms)
+
+
+Started GET "/admin/cashflow_reports" for 127.0.0.1 at 2013-08-22 14:27:38 +0800
+Processing by Admin::CashflowReportsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 45 LIMIT 1[0m
+  [1m[35mCompany Load (0.2ms)[0m  SELECT `companies`.* FROM `companies` 
+  [1m[36mCashflowSubject Load (0.2ms)[0m  [1mSELECT `cashflow_subjects`.* FROM `cashflow_subjects` [0m
+  [1m[35mCorrespondingSubject Load (0.2ms)[0m  SELECT `corresponding_subjects`.* FROM `corresponding_subjects` 
+  Rendered admin/cashflow_reports/_search.html.erb (24.0ms)
+  [1m[36mCashFlow Load (0.1ms)[0m  [1mSELECT `cash_flows`.* FROM `cash_flows` LIMIT 15 OFFSET 0[0m
+  [1m[35mCompany Load (0.1ms)[0m  SELECT `companies`.* FROM `companies` WHERE `companies`.`id` = 4 LIMIT 1
+  [1m[36mCashflowSubject Load (0.2ms)[0m  [1mSELECT `cashflow_subjects`.* FROM `cashflow_subjects` WHERE `cashflow_subjects`.`id` = 1 LIMIT 1[0m
+  [1m[35mCorrespondingSubject Load (0.2ms)[0m  SELECT `corresponding_subjects`.* FROM `corresponding_subjects` WHERE `corresponding_subjects`.`id` = 1 LIMIT 1
+  [1m[36mCompany Load (0.2ms)[0m  [1mSELECT `companies`.* FROM `companies` WHERE `companies`.`id` = 1 LIMIT 1[0m
+  [1m[35mCashflowSubject Load (0.2ms)[0m  SELECT `cashflow_subjects`.* FROM `cashflow_subjects` WHERE `cashflow_subjects`.`id` = 4 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `corresponding_subjects`.* FROM `corresponding_subjects` WHERE `corresponding_subjects`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `cash_flows` 
+  Rendered admin/cashflow_reports/index.html.erb within layouts/admin (38.2ms)
+  Rendered admin/shared/_topnav.html.erb (2.2ms)
+Completed 200 OK in 57ms (Views: 47.5ms | ActiveRecord: 2.0ms)
+Connecting to database specified by database.yml
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :hint, :wrap_with => {:tag=>:span, :class=>:hint} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:44)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :error, :wrap_with => {:tag=>:span, :class=>:error} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:45)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :label, :wrap_with => {:class=>"control-label"} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:50)
+DEPRECATION WARNING: Passing a block to use is deprecated. Please use wrapper instead of use. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:51)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :error, :wrap_with => {:tag=>"span", :class=>"help-inline"} instead. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:53)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :hint, :wrap_with => {:tag=>"p", :class=>"help-block"} instead. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:54)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :label, :wrap_with => {:class=>"control-label"} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:60)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :hint, :wrap_with => {:tag=>"span", :class=>"help-block"} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:61)
+DEPRECATION WARNING: Passing a block to use is deprecated. Please use wrapper instead of use. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:62)
+DEPRECATION WARNING: Passing a block to use is deprecated. Please use wrapper instead of use. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:63)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :error, :wrap_with => {:tag=>"span", :class=>"help-inline"} instead. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:66)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :label, :wrap_with => {:class=>"control-label"} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:72)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :hint, :wrap_with => {:tag=>"span", :class=>"help-block"} instead. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:73)
+DEPRECATION WARNING: Passing a block to use is deprecated. Please use wrapper instead of use. (called from block (2 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:74)
+DEPRECATION WARNING: Passing a block to use is deprecated. Please use wrapper instead of use. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:75)
+DEPRECATION WARNING: Passing :tag, :class and others to use is deprecated. Please invoke b.use :error, :wrap_with => {:tag=>"span", :class=>"help-inline"} instead. (called from block (3 levels) in <top (required)> at /home/wyh77/xjl/config/initializers/simple_form.rb:78)
+
+
+Started GET "/admin/cashflow_reports?utf8=%E2%9C%93&begin_date=2013-08-14&end_date=&company_id=&cashflow_subject_id=&corresponding_subject_id=&commit=%E6%90%9C%E7%B4%A2" for 127.0.0.1 at 2013-08-22 16:15:05 +0800
+Processing by Admin::CashflowReportsController#index as HTML
+  Parameters: {"utf8"=>"✓", "begin_date"=>"2013-08-14", "end_date"=>"", "company_id"=>"", "cashflow_subject_id"=>"", "corresponding_subject_id"=>"", "commit"=>"搜索"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 45 LIMIT 1[0m
+  [1m[35mCashFlow Load (0.3ms)[0m  SELECT `cash_flows`.* FROM `cash_flows` WHERE `cash_flows`.`cashflow_date` BETWEEN '2013-08-14' AND '2999-12-31'
+Completed 500 Internal Server Error in 145ms
+
+NoMethodError (undefined method `page' for #<Array:0x000000043cbcd0>):
+  app/controllers/admin/cashflow_reports_controller.rb:42:in `index'
+  config/initializers/quiet_assets.rb:8:in `call_with_quiet_assets'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (34.2ms)

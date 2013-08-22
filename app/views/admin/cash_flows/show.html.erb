@@ -1,0 +1,37 @@
+<% content_for :title do %>
+<h1><%= "现金流详细信息" %></h1>
+<div class="toolbar">
+  <%= link_to t('crud.edit'), edit_admin_cash_flow_path(@cash_flow), class: 'btn btn-primary' %>
+  <%= link_to t('crud.back'), admin_cash_flows_path, class: 'btn' %>
+</div>
+<% end %>
+
+<table class="table table-nobordered">
+  <tbody>
+    <tr>
+      <th><%= CashFlow.human_attribute_name(:cashflow_date) %></th>
+      <td><%= @cash_flow.cashflow_date.strftime("%Y-%m-%d") %></td>
+    </tr>
+    <tr>
+      <th><%= CashFlow.human_attribute_name(:company_id) %></th>
+      <td><%= @cash_flow.company.name if @cash_flow.company %></td>
+    </tr>
+    <tr>
+      <th><%= CashFlow.human_attribute_name(:cashflow_subject_id) %></th>
+      <td><%= @cash_flow.cashflow_subject.name if @cash_flow.cashflow_subject%></td>
+    </tr>
+    <tr>
+      <th><%= CashFlow.human_attribute_name(:corresponding_subject_id) %></th>
+      <td><%= @cash_flow.corresponding_subject.name if @cash_flow.corresponding_subject%></td>
+    </tr>
+    <tr>
+      <th><%= CashFlow.human_attribute_name(:cashflow_amount) %></th>
+      <td><%= number_to_currency @cash_flow.cashflow_amount %></td>
+    </tr>
+    <tr>
+      <th><%= CashFlow.human_attribute_name(:description) %></th>
+      <td><%= @cash_flow.description %></td>
+    </tr>
+  </tbody>
+</table>
+

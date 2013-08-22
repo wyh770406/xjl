@@ -2,6 +2,7 @@
 <h1><%= @cashflow_subject.name %></h1>
 <div class="toolbar">
   <%= link_to t('crud.edit'), edit_admin_cashflow_subject_path(@cashflow_subject), class: 'btn btn-primary' %>
+  <%= link_to t('crud.back'), admin_cashflow_subjects_path, class: 'btn' %>
 </div>
 <% end %>
 

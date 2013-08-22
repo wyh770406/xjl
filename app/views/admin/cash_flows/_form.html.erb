@@ -1,0 +1,20 @@
+<%= simple_form_for([:admin, @cash_flow], html: { class: 'form-horizontal' }) do |f| %>
+  <% if f.error_notification %>
+    <div class="alert alert-error fade in">
+      <a class="close" data-dismiss="alert">&times;</a>
+      <p><%= f.error_notification %></p>
+    </div>
+  <% end %>
+
+  <%= f.input :cashflow_date, as: :string, input_html: { class: 'span2 date-input' } %>
+  <%= f.input :company_id, collection: Company.all, disabled: true %>
+  <%= f.input :company_id, :as => :hidden, :input_html => { :value => @cash_flow[:company_id] || 0 }%>
+  <%= f.input :cashflow_subject_id, collection: CashflowSubject.where(:company_id=>(@cash_flow[:company_id] || 0)).all %>
+  <%= f.input :corresponding_subject_id, collection: CorrespondingSubject.all %>
+  <%= f.input :cashflow_amount%>
+  <%= f.input :description, as: :text, input_html: { class: 'span6', rows: 3 } %>
+
+  <div class="form-actions">
+    <%= f.button :submit, class: 'btn btn-primary' %>
+  </div>
+<% end %>
